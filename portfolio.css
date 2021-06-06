@@ -321,7 +321,7 @@ h1:hover{
 }
 #card:hover{
 	background: linear-gradient(to bottom, #ff5050 0%, #ffcc66 100%);
-	transform: scale(1.1);
+	
 	transition: all 0.3s ease-in;
 }
 #left-box:hover{
@@ -410,13 +410,14 @@ button:hover {
 		height: auto;
 	}
 	#card{
-		justify-content: space-evenly;
+		justify-content: space-around;
 		width: 100%;
 		flex-wrap: wrap;
-		padding-bottom: 10%;
+		
 	}
 	#box{
 		flex-wrap: wrap;
+
 	}
 	#about{
 		height: auto;
